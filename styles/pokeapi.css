@@ -1,0 +1,170 @@
+body {
+  background-color: gray;
+   background-size:contain;
+    margin-top: 30px;
+    font-family: rubik;
+    color: black;
+    
+  }
+header{
+  padding-block: 1rem;
+  position: relative;
+  background-image: url(/imagenes/Bosquerengonorte.webp);
+}
+.nav{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items:center;
+  color: white;
+
+}
+
+.nav_list{
+  list-style-type: none;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+.btn{
+  background-color: transparent;
+  border: 0;
+  border-radius: 10px;
+  padding: 3px;
+  color: white;
+}
+.logo{
+  height: 20vh;
+ 
+
+}
+#todos{
+  background-color: gray;
+}
+#fire{
+  background-color: red;
+}
+#grass{
+  background-color: green;
+}
+#poison{
+  background-color: violet;
+}
+#water{
+  background-color: blue;
+}
+#electric{
+  background-color: yellow;
+  color: black;
+}
+#normal{
+  background-color: rgb(201, 155, 28);
+}
+#stell{
+  background-color: black;
+  
+}
+#flying{
+  background-color: rgb(35, 78, 237);
+}
+#ice{
+  background-color: aqua;
+}
+#bug{
+  background-color: goldenrod;
+}
+#rock{
+  background-color: rgb(255, 89, 0);
+}
+#ground{
+  background-color: orangered;
+}
+#fighting{
+  background-color: brown;
+}
+#fairy{
+  background-color: palevioletred;
+}
+#psychic{
+  background-color: rgb(209, 10, 76);
+}
+#dragon{
+  background-color: rgb(99, 10, 99);
+}
+#ghost{
+  background-color: blueviolet;
+}
+#dark{
+  background-color: rgb(107, 13, 44);
+}
+.card {
+
+  list-style: none;
+  padding: 40px;
+  background-image: url(/imagenes/carta1.png);
+  background-size: cover;
+  color: #a20e0e;
+  text-align: center;
+  
+
+}
+.tipe{
+ color: rgb(47, 39, 39);
+  border-radius: 40%;
+  border: 2px dotted rgb(55, 50, 50);
+}
+.card-title {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: normal;
+  margin-bottom: 0;
+  
+}
+.card-subtitle {
+  font-weight: lighter;
+  color: #121111;
+  margin-top: 5px;
+}
+.card-image {
+  height: 200px;
+
+  
+
+}
+#pokedex {
+  padding-inline-start: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 20px;
+ 
+}
+.card:hover {
+  animation: bounce 0.5s linear;
+}
+::placeholder{
+  color: yellow;
+}
+#input{
+  background-color: transparent;
+  padding: 20px;
+  color: yellow;
+  
+
+
+}
+@keyframes bounce {
+  20% {
+    transform: translateY(-6px);
+  }
+  40% {
+    transform: translateY(0px);
+  }
+  60% {
+    transform: translateY(-2px);
+  }
+  80% {
+    transform: translateY(-0px);
+  }
+}
